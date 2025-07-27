@@ -177,10 +177,78 @@
 // var result = isEligibleToVote(25);
 // console.log(result);
 
-
-//? Question No 16. findAbsoluteValue
+// Question No 16. findAbsoluteValue
 // Write a function that returns the absolute value of a number (no Math.abs, use if-else
 // only).
 
+// function absoluteValue(num) {
+//   if (num < 0) {
+//     return num * -1;
+//   } else {
+//     return num;
+//   }
+// }
+// let result = absoluteValue(-6);
+// console.log(result);
 
+// Question No 17. checkTemperature
+// Write a function that takes a temperature and returns:
+// ● "Hot" if temperature is above 30
+// ● "Cold" if below 10
+// ● "Normal" otherwise
 
+// function checkTemperature(temp) {
+//   if (temp > 30) {
+//     return "Hot";
+//   } else if (temp < 10) {
+//     return "Cold";
+//   } else {
+//     return "Normal";
+//   }
+// }
+// let result = checkTemperature(32);
+// console.log(result);
+
+// Question No 18. getTriangleType
+// Create a function that takes 3 sides and returns:
+// ● "Equilateral" if all are equal
+// ● "Isosceles" if any two are equal
+// ● "Scalene" if all are different
+
+// function getTriangleType(num1, num2, num3) {
+//   if (num1 === num2 && num2 === num3) {
+//     return "Equilateral";
+//   } else if (num1 === num2 || num1 === num3 || num2 === num3) {
+//     return "Isosceles";
+//   } else {
+//     return "Scalene";
+//   }
+// }
+// let result = getTriangleType(21, 10, 20);
+// console.log(result);
+
+// Question No 19. calculateDiscountedPrice
+// Write a function that takes a price and discount percentage, and returns the discounted
+// price.
+
+// function calculateDiscount(price, discountPercentage) {
+//   let discountAmount = (price * discountPercentage) / 100;
+//   let finalPrice = price - discountAmount;
+//   return finalPrice;
+// }
+// let result = calculateDiscount(105, 10);
+// console.log(result);
+
+// Question No 20. isPasswordValid
+// Write a function that takes a password and checks if its length is 8 characters or more.
+// Return "Valid Password" or "Too Short".
+
+// function isPasswordValid(password) {
+//   if (password.length >= 8) {
+//     return "Valid Password";
+//   } else {
+//     return "Too Short";
+//   }
+// }
+// let result = isPasswordValid("hellwwww");
+// console.log(result);
